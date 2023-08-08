@@ -1,0 +1,79 @@
+body{
+        
+        font-family: sans-serif;
+        padding: 20px;
+    }
+
+.css body::before{
+    content: "\01F369";
+}
+    
+h1{
+    color: rgb(226, 43, 119);
+    font-size: 40px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+h2{
+    color: rgb(223, 38, 146);
+    font-size: 30px;
+}
+.logo{
+    font-style: italic;
+}
+
+h3{
+    color: blueviolet;
+}
+
+h1, h2, p{
+    text-align: center;
+}
+
+.menu{
+    border: 5px solid rgb(112, 3, 126);
+    width: 100%;
+    background-color:rgb(247, 150, 182) ;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20%s;
+    max-width: 500px;
+}
+
+hr{
+    height: 2px;
+    background-color: rgb(112, 3, 126);
+    border-color: rgb(112, 3, 126);
+}
+
+.bottom-line{
+    margin-top: 25px;
+}
+
+h1, h2{
+    font-family: Impact, serif;
+}
+
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.flavor, dessert{
+    text-align: left;
+    width: 75%;
+}
+
+.price{
+    text-align: justify;
+    width: auto;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px;
+}
+
